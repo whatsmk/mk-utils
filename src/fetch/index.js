@@ -186,7 +186,7 @@ export function post(url, data, headers, option) {
 						let name = response.headers.get('Content-Disposition')
 						name = name.split('name=')[1].split(';')[0]
 						a.href = url
-						a.download = name
+						a.download = decodeURI(name)
 						a.click()
 						window.URL.revokeObjectURL(url)
 					})
