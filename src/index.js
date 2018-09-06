@@ -14,7 +14,7 @@ import tree from './tree'
 import history from './history'
 //import less from './less'
 import _ from 'lodash'
-import ui from './ui'
+//import ui from './ui'
 //import pubSub from 'pubsub-js'
 
 export default {
@@ -34,5 +34,5 @@ export default {
 	history,
 	//less,
 	_,
-	ui
+	//ui
 }
